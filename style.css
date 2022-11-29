@@ -1,0 +1,64 @@
+.navbar ul li a{
+    color: white !important;
+}
+
+.header-container {
+    margin-top: 100px;
+}
+
+.body {
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    top: 200px;
+    left:90px;
+    width: 150px;
+}
+
+.ticket-1 {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 150px;
+}
+.ticket-2 {
+    position: absolute;
+    top: 400px;
+    right: 150px;
+    width: 150px;
+}
+
+.three_stars {
+    position: absolute;
+    top: 200px;
+    right: 130px;
+    width: 150px;
+}
+
+.ticket_r {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    .ticket_r,
+    .three_stars,
+    .ticket-2,
+    .ticket-1,
+    .star {
+        display: none;
+    }
+}
+
+.Social{
+    width: 20px;
+}
+
+.Social-d {
+    width: 25px;
+}
